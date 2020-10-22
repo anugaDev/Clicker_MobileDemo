@@ -18,9 +18,7 @@ namespace Clicker.Commands
                 _userModel.ClickValue++;
                 _userModel.Points -= _boardModel.UpgradeCost;
                 _boardModel.UpgradeCost *= _boardModel.ClickUpgradeIncrement;
-            }
-            
+            }   
         }
-    
     }
 }

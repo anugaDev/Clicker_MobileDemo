@@ -42,10 +42,8 @@ namespace Clicker.User
 
             _points = _originalPoints;
             _clickValue= _originalClickValue;
-        }
-        
-    }
-    
+        }   
+    } 
 }
     
    

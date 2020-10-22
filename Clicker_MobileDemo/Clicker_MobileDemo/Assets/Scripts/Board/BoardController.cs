@@ -18,14 +18,11 @@ namespace Clicker.Board
             _view.BuyUpgradeButton.onClick.AddListener(buyUpgradeInteraction.Execute);
            
             OnUpgradeBought(_model.UpgradeCost);
-           
         }
         
         private void OnUpgradeBought(int value)
         {
             _view.SetUpgradeTextValue(value);
-        }
-        
-        
+        }   
     }
 }

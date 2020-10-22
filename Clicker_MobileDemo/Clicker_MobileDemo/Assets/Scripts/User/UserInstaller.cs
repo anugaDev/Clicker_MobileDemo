@@ -10,6 +10,5 @@ namespace Clicker.User
         {
             new UserController(userModel, _userView);
         }
-        
     }
 }

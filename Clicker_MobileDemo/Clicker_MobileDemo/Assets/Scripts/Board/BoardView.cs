@@ -18,6 +18,5 @@ namespace Clicker.Board
         {
             _buyUpgradeButtonText.text = value.ToString();
         }
-
     }
 }

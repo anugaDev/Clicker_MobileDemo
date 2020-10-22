@@ -22,8 +22,6 @@ namespace Clicker
             
             _userInstaller.Install(userModel);
             _boardInstaller.Install(userModel,_boardConfigData);
-            
         }
     }
-
 }

@@ -11,7 +11,6 @@ namespace Clicker.Board
 
         public void Install(UserModel userModel,BoardConfigData boardConfigData)
         {
-            
             var boardModel = new BoardModel(boardConfigData);
 
             var mainButtonInteractionCommand = new AddPointsInteractionCommand(userModel);

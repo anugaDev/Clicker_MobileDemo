@@ -8,7 +8,6 @@ namespace Clicker.Commands
         public override void Execute()
         {
             _userModel.Points += _userModel.ClickValue;
-        }
-    
+        } 
     }
 }
