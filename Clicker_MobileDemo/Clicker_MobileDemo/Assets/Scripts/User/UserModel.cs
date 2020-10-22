@@ -41,7 +41,7 @@ namespace Clicker.User
             _originalClickValue = userConfigData.ClickValue;
 
             _points = _originalPoints;
-            _clickValue= _originalClickValue;
+            _clickValue = _originalClickValue;
         }   
     } 
 }
